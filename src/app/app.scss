@@ -132,3 +132,44 @@
 .process.reveal.visible .process-card:nth-child(2) { transition-delay: .4s; }
 .process.reveal.visible .process-card:nth-child(3) { transition-delay: .6s; }
 .process.reveal.visible .process-card:nth-child(4) { transition-delay: .8s; }
+.nav, .hero, .about, .work, .marquee, .process, .contact {
+  font-family: 'Inter', Arial, sans-serif;
+}
+.hero-left, .hero-right, .about h2, .work-title, .process h2, .contact h2, .footer-big {
+  font-family: 'Archivo', 'Inter', Arial, sans-serif;
+}
+.hero-photo {
+  width: 380px; height: 540px; right: 14%; top: 10%;
+}
+.hero-left, .hero-right { position: relative; z-index: 2; }
+
+@media (max-width: 768px) {
+  .hero-photo { position: static; width: 100%; height: 340px; margin: 32px 0; }
+}
+.hero-photo { right: 24%; }
+.hero-left, .hero-right {
+  mix-blend-mode: difference;
+  color: #fff;
+}
+.hero-photo {
+  width: 440px; height: 620px; right: 32%; top: 8%;
+}
+.hero-left, .hero-right {
+  mix-blend-mode: difference;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero-photo { position: static; width: 100%; height: 340px; margin: 32px 0; }
+}
+.hero-photo {
+  right: 40%;
+  top: 6%;
+}
+.hero-photo {
+  width: 380px; height: 530px; right: 34%; top: 10%;
+}
+
+@media (max-width: 768px) {
+  .hero-photo { position: static; width: 100%; height: 340px; margin: 32px 0; }
+}
