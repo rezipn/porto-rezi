@@ -379,3 +379,16 @@ a.work-row { text-decoration: none; color: inherit; cursor: pointer; }
   .hero-small { margin: 24px 0; }
   .hero-note-right { display: none; }
 }
+
+.hero, .about, .work, .process, .contact {
+  scroll-snap-align: start;
+}
+
+.reveal {
+  transform: translateY(48px);
+  transition: opacity 1.3s ease, transform 1.3s ease;
+}
+.work.reveal .work-row, .process.reveal .process-card {
+  transform: translateY(32px);
+  transition: opacity 1.1s ease, transform 1.1s ease, background .25s, color .25s;
+}
