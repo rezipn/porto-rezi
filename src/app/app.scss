@@ -263,6 +263,7 @@ a.work-row { text-decoration: none; color: inherit; cursor: pointer; }
   display: inline-block; transform-origin: bottom center;
   color: rgba(255,255,255,.30); -webkit-text-fill-color: rgba(255,255,255,.30);
   background: none; -webkit-background-clip: initial; background-clip: initial;
+  text-shadow: -8px -10px 0 rgba(255,255,255,.13), 6px 7px 0 rgba(255,255,255,.07), 0 0 34px rgba(255,255,255,.25);
 }
 .footer-big.messy .space { width: .35em; }
 .footer-big.messy span:nth-child(1)  { transform: rotate(-9deg) translateY(12px); }
@@ -336,7 +337,7 @@ a.work-row { text-decoration: none; color: inherit; cursor: pointer; }
   .footer-menu { grid-template-columns: repeat(2, 1fr); margin-top: 8px; }
   .footer-big { font-size: 13.5vw; letter-spacing: -1px; }
   .footer-big.messy { margin-top: 16px; transform: translateY(10%); }
-  .footer-big.messy span { text-shadow: 0 0 26px rgba(255,255,255,.28); }
+  .footer-big.messy span { text-shadow: -5px -7px 0 rgba(255,255,255,.14), 4px 5px 0 rgba(255,255,255,.08), 0 0 26px rgba(255,255,255,.28); }
   .footer-big.messy span:nth-child(1)  { transform: rotate(-9deg) translateY(.14em); }
   .footer-big.messy span:nth-child(2)  { transform: rotate(11deg) translateY(-.05em); }
   .footer-big.messy span:nth-child(3)  { transform: rotate(-19deg) translateY(.09em); }
