@@ -335,9 +335,9 @@ a.work-row { text-decoration: none; color: inherit; cursor: pointer; }
   .process { padding-bottom: 32px; }
   .contact { padding-top: 40px; }
   .footer-menu { grid-template-columns: repeat(2, 1fr); margin-top: 8px; }
-  .footer-big { font-size: 14vw; letter-spacing: -1px; }
-  .footer-big.messy { margin-top: 16px; transform: translateY(10%); }
-  .footer-big.messy span { text-shadow: -2px -3px 0 rgba(255,255,255,.13), 2px 2px 0 rgba(255,255,255,.07), 0 0 18px rgba(255,255,255,.25); }
+  .footer-big { font-size: 14vw; letter-spacing: -.07em; }
+  .footer-big.messy span { margin-right: -.03em; }
+  .footer-big.messy span { text-shadow: -4px -5px 0 rgba(255,255,255,.18); }
   .footer-big.messy span:nth-child(1)  { transform: rotate(-9deg) translateY(.14em); }
   .footer-big.messy span:nth-child(2)  { transform: rotate(11deg) translateY(-.05em); }
   .footer-big.messy span:nth-child(3)  { transform: rotate(-19deg) translateY(.09em); }
